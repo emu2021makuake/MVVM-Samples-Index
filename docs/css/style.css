@@ -1,4 +1,29 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #22272e;
+    color: #a6b8c7;
+    }
+    a {
+        color: #4b9be2;
+        text-decoration: none;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #f3f4f6;
+        color: #000;
+    }
+    a {
+        color: #0366d6;
+        text-decoration: none;
+    }
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 table th, table td {
     padding: 0.2em 0.3em;
 }
-
